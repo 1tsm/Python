@@ -32,6 +32,22 @@
 using namespace std;
 
 int main(){
+    
+    //Automatic Type Deduction using 'auto' keyword
+    auto num = 42; // num is deduced to be of type int
+    auto fnum = 42.0f; // fnum is deduced to be of type float
+    auto dnum = 42.0; // dnum is deduced to be of type double
+    auto ch = 'A'; // ch is deduced to be of type char
+    auto flag = true; // flag is deduced to be of type bool
+    auto str = "Hello, World!"; // str is deduced to be of type const char*
+    cout << num << endl;
+    cout << fnum << endl;
+    cout << dnum << endl;
+    cout << ch << endl;
+    cout << flag << endl;
+    cout << str << endl;
+    
+    
     // Creating integer variable
     int var = 10;
     cout << var << endl;
@@ -81,6 +97,5 @@ int main(){
    cout << "Size of double " << sizeof(double) << " bytes" << endl;
    cout << "Size of char " << sizeof(char) << " bytes" << endl;
 
-   
    return 0;
 }
