@@ -78,8 +78,8 @@ int main(){
    
    //Type Safety in C++
    //Assining float value to isTrue
-   bool y = 10.555f;
-   cout << y << endl; 
+   //bool y = 10.555f; warning
+   //cout << y << endl; 
    
    // Data Type Conversation 
    int a = 15;
